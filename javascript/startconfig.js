@@ -30,7 +30,7 @@ var voltaraoTopo = true; // Ativa o botão de voltar ao topo
 // Configurações do menu superior
 
 var corMenu = '#fff'; // Define a cor do menu superior
-var corMenuCategorias = '#D7BCE8'; // Define a cor das categorias do menu superior
+var corMenuCategorias = '#000'; // Define a cor das categorias do menu superior
 var categoriasMenu = 6; // Número de categorias que irão aparecer no menu superior
 
 var iconesMenu = true; // Ativa icones no menu superior (true = ativado, false = desativado)
