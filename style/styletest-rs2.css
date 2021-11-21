@@ -455,7 +455,7 @@ body {
     font-size: 20px;
 }
 .listagem .titulo-categoria:first-child {
-    margin-top: 80px;
+    margin-top: 30px;
 }
 .listagem .titulo-categoria span {
     font-size: 20px;
@@ -4937,7 +4937,7 @@ body {
         margin-top: 10px !important;
     }
     .listagem .titulo-categoria {
-        margin-top: 30px !important;
+        margin-top: 50px !important;
     }
 
     #rodape .institucional {
