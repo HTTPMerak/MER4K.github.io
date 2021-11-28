@@ -261,14 +261,14 @@ $(document).ready(function () {
 							}
 							j += "</div>"
 						} if (f.display_igtv && "undefined" != typeof c.edge_felix_video_timeline) {
-						var r = c.edge_felix_video_timeline.edges
-							, s = r.length > f.items ? f.items : r.length;
-						if (0 < r.length) {
-							j += "<div class='instagram_igtv'>";
-							for (var m = 0; m < s; m++) j += "<a href='https://www.instagram.com/p/" + r[m].node.shortcode + "' rel='noopener' target='_blank'>", j += "<img src='" + r[m].node.thumbnail_src + "' alt='" + f.username + " instagram image " + m + "'" + e.gallery_image + " />", j += "</a>";
-							j += "</div>"
+							var r = c.edge_felix_video_timeline.edges
+								, s = r.length > f.items ? f.items : r.length;
+							if (0 < r.length) {
+								j += "<div class='instagram_igtv'>";
+								for (var m = 0; m < s; m++) j += "<a href='https://www.instagram.com/p/" + r[m].node.shortcode + "' rel='noopener' target='_blank'>", j += "<img src='" + r[m].node.thumbnail_src + "' alt='" + f.username + " instagram image " + m + "'" + e.gallery_image + " />", j += "</a>";
+								j += "</div>"
+							}
 						}
-					}
 					a(f.container).html(j)
 				}).fail(function (a) {
 					console.error("Instagram Feed: Unable to fetch the given user/tag. Instagram responded with the status code: ", a.status)
