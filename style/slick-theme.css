@@ -15,6 +15,13 @@
     src: url('https://kenwheeler.github.io/slick/slick/fonts/slick.eot');
     src: url('https://kenwheeler.github.io/slick/slick/fonts/slick.eot?#iefix') format('embedded-opentype'), url('https://kenwheeler.github.io/slick/slick/fonts/slick.woff') format('woff'), url('https://kenwheeler.github.io/slick/slick/fonts/slick.ttf') format('truetype'), url('https://kenwheeler.github.io/slick/slick/fonts/slick.svg#slick') format('svg');
 }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    max-width: 600px;
+  }
 /* Arrows */
 .slick-prev,
 .slick-next
